@@ -35,6 +35,7 @@ public class VetController {
 
     private final ClinicService clinicService;
     private static final String TEST = "test";
+    private static final String TEST2 = "test2";
 
     @Autowired
     public VetController(ClinicService clinicService) {
