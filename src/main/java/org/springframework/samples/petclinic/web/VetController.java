@@ -34,7 +34,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class VetController {
 
     private final ClinicService clinicService;
-
+    private static final String TEST = "test";
 
     @Autowired
     public VetController(ClinicService clinicService) {
